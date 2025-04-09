@@ -1,4 +1,5 @@
 #include <amtest.h>
+#include <klib.h>
 
 void (*entry)() = NULL; // mp entry
 

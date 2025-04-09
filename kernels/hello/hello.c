@@ -1,7 +1,9 @@
 #include <am.h>
+#include <klib.h>
 #include <klib-macros.h>
 
 int main(const char *args) {
+  printf("Hello world!\n");
   const char *fmt =
     "Hello, AbstractMachine!\n"
     "mainargs = '%'.\n";
